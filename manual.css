@@ -1,0 +1,54 @@
+/* manual.css - Retro RPG Manual Style */
+
+body {
+  font-family: 'Courier New', monospace;
+  background: #f3f0e5 url('parchment_texture.png') repeat;
+  color: #2a1e0d;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 10px solid goldenrod;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  line-height: 1.6;
+}
+
+h1 {
+  color: darkred;
+  text-align: center;
+  text-shadow: 1px 1px #aaa;
+}
+
+h2 {
+  color: darkgreen;
+  border-bottom: 2px solid #999;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+strong {
+  color: #444;
+}
+
+a {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+code {
+  background: #eee;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
